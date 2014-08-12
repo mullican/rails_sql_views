@@ -22,10 +22,9 @@
 #++
 
 $:.unshift(File.dirname(__FILE__))
-ActiveSupport::Dependencies.autoload_paths.unshift File.expand_path("../../lib", __FILE__)
 
+require 'activesupport'
 require 'active_record'
-
 require 'core_ext/module'
 
 require 'rails_sql_views/connection_adapters/abstract/schema_definitions'
