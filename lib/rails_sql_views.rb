@@ -23,7 +23,6 @@
 
 $:.unshift(File.dirname(__FILE__))
 
-require 'activesupport'
 require 'active_record'
 require 'core_ext/module'
 
